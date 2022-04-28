@@ -76,3 +76,24 @@
     }
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .services{
+    .content-services{
+      .collage-images{
+        width: calc(50% + 50px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .services{
+    .content-services{
+      .collage-images{
+        width: calc(75% + 50px);
+      }
+    }
+  }
+}
