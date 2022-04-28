@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import "node_modules/bootstrap/scss/bootstrap";
+
+:root{
+  --main-color: #1E429B;
+  --second-color: #D82C27;
+}
+
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  // margin-bottom: 0 !important;
+  box-sizing: border-box
+}
+h1,h2,h3,h4,h5, p{
+  margin-bottom: 0;
+}
+
+header{
+  z-index: 10;
+  top: 0;
+  background-color: #fff;
+}
+main{
+  margin-top: 8rem;
+}
+.p-title{
+  font-weight: bold;
+  color: var(--main-color);
+  margin-bottom: .5rem;
+}
+
+.nav-header ul{
+  display: flex;
+  margin-right: 4rem;
+  margin-bottom: 0;
+  a{
+    text-decoration: none;
+    color: inherit  ;
+  }
+}
+.nav-header li{
+  margin: 0 1rem;
+  list-style: none;
+}
+.btn-language select{
+  border: none;
+  list-style: none;
+  margin: 0 1rem;
+  margin-top: .2rem;
+  background-color: transparent;
+}
+.btn-contact-us button{
+  width: max-content;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: .7rem 1rem;
+  border: none;
+  border-radius: 30px;
+}
+.btn-contact-us button:hover{
+  background-color: #1a3885;
+}
+.btn-outline button{
+  border: 1px solid var(--main-color);
+  border-radius: 30px;
+  padding: .7rem 1rem;
+  color:var(--main-color)
+}
+.btn-outline button:hover{
+  background-color: var(--main-color);
+  color: #fff;
+  border: 1px solid var(--main-color);
+}
+
+.container-info-slider h2{
+  font-size: 2.5rem;
+  font-weight: revert;
+}
+.slick-slide img, .slider-content img{
+  // width: 80%;
+  height: 350px;
+  object-fit: cover;
+  max-width: 450px;
+}
+
+.slider-account{
+  width: 150px;
+  border: 2px solid #eee;
+}
+.btns-slider{
+  position: relative;
+  z-index: 10;
+}
+
+
+// carousel
+.carousel-indicators [data-bs-target]{
+  background-color: #d4d4d4;
+  width: 150px;
+}
+.carousel-indicators .active{
+  background-color: var(--second-color);
+}
+.carousel-indicators{
+  bottom: -37px;
+}
+
+
+.navSlider .slider-account{
+  margin: 0 .5rem;
+}
+.active{
+  // border: 2px solid var(--main-color);
+}
+.border-red {
+  font-weight: bold;
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  border-bottom: 3px solid var(--second-color);
+  padding-bottom: .5rem;
+}
+
+
+.services-info{
+  padding: 0 2rem;
+  padding-left: 12px;
+}
+.services-cards{
+  background-color: #f9f9f9;
+}
+.text-container{
+  max-width: 600px;;
+}
+.cards img{
+  height: 60px;
+  margin-bottom: 1rem;
+}
+.container-card{
+  cursor: pointer;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 0px 1rem;
+  width: 200px;
+  transition: all ease .5s;
+}
+.container-card:hover{
+  background-color: #fff;
+  box-shadow: 5px 5px 8px 5px #c6c6c6;
+}
+.container-cards{
+  line-height: 120%;
+}
+.span-card{
+  color: #848484;
+}
+
+.card-client{
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.card-client p{
+  line-height: 100%;
+}
+.card-client p span{
+  font-size: .8rem;
+  font-weight: 500;
+}
+.card-client img{
+  width: 60px;
+}
+
+.card-client-info{
+  border-bottom: 8px solid #f4f4f4;
+  border-right: 8px solid #f4f4f4;
+  border-left: 8px solid #f4f4f4;
+  padding: 0 2rem;
+  padding-top: 1rem;
+  line-height: 120%;
+}
+.brands p{
+  margin: 2rem;
+}
+.footer-info{
+  margin-right: 10rem;
+}
+.footer-info h6, .footer-contact-us h6{
+  font-weight: bold;
+}
+.footer-info p{
+  text-align: justify;
+  line-height: 100%;
+  color: #9395a0;
+  max-width: 295px;
+}
+
+.social-title{
+  margin-top: 3.5rem;
+  color: #fff !important;
+}
+.social .icon{
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+}
+.icon{
+  width: 2rem;
+}
+
+.footer-contact-us{
+  padding: 0 5rem;
+}
+form input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  margin: 1rem 0;
+  color: #fefefe;
+}
+form input::placeholder{
+  color: #fefefe;
+}
+form textarea{
+  background-color: #9395a0;
+  border: none;
+}
+
+footer{
+  background-color: #272F42;
+  color: #fff;
+
+  .btn-contact-us button{
+    background-color: var(--second-color);
+  }
+  .btn-contact-us button:hover{
+    background-color: #b0241f;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer{
+    .footer-info{
+      margin: inherit;
+      p{
+        max-width: inherit;
+      }
+    }
+  }
+}

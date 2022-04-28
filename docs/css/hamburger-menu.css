@@ -1,0 +1,16 @@
+.hamburger-menu button {
+  background-color: transparent;
+  border: none;
+}
+.hamburger-menu button:focus {
+  background-color: #739cff;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+.hamburger-menu img {
+  width: 1.5rem;
+}
+.hamburger-menu .dropdown-toggle::after {
+  content: inherit;
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhhbWJ1cmdlci1tZW51LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRTtFQUNBOztBQUVGO0VBQ0U7RUFDQTtFQUNBOztBQUVGO0VBQ0U7O0FBRUY7RUFDRSIsImZpbGUiOiJoYW1idXJnZXItbWVudS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuaGFtYnVyZ2VyLW1lbnV7XG4gIGJ1dHRvbntcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcbiAgICBib3JkZXI6IG5vbmU7XG4gIH1cbiAgYnV0dG9uOmZvY3Vze1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM3MzljZmY7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBhZGRpbmc6IDAuM3JlbTtcbiAgfVxuICBpbWd7XG4gICAgd2lkdGg6IDEuNXJlbTtcbiAgfVxuICAuZHJvcGRvd24tdG9nZ2xlOjphZnRlcntcbiAgICBjb250ZW50OiBpbmhlcml0O1xuICB9XG59Il19 */

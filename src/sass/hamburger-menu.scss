@@ -1,0 +1,17 @@
+.hamburger-menu{
+  button{
+    background-color: transparent;
+    border: none;
+  }
+  button:focus{
+    background-color: #739cff;
+    border-radius: 5px;
+    padding: 0.3rem;
+  }
+  img{
+    width: 1.5rem;
+  }
+  .dropdown-toggle::after{
+    content: inherit;
+  }
+}

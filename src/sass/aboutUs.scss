@@ -1,0 +1,31 @@
+.aboutUs{
+  .about-border-active{
+    font-weight: bold;
+    border-bottom: 3px solid var(--second-color);
+    padding-bottom: 0.5rem;
+  }
+
+  .slider-content img{
+    width: 100%;
+    max-width: inherit;
+    object-position: center;
+  }
+
+  .about-us-content{
+    background-color: #f9f9f9;
+
+    .about-title{
+      display: flex;
+      align-self: center;
+    }
+  }
+
+  .services-cards{
+    background-color: inherit;
+    p{
+      max-width: 500px;
+      text-align: justify;
+    }
+  }
+  
+}
