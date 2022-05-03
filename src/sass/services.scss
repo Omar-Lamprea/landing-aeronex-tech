@@ -5,10 +5,18 @@
     padding-bottom: 0.5rem;
   }
 
-  .slider-content img{
-    width: 100%;
-    max-width: inherit;
-    object-position: center;
+  .slider-content{
+    .content-slider{
+      position: absolute;
+      top: calc(50% - 40.44px);
+      max-width: 500px;
+      text-align: center;
+      }
+    img{
+      width: 100%;
+      max-width: inherit;
+      object-position: center;
+    } 
   }
 
   .services-cards{
@@ -16,7 +24,7 @@
   }
 
   .card-active{
-    background-color: var(--main-color);
+    background-color: #1e429be0;
     box-shadow: 5px 5px 8px 5px #c6c6c6;
     p{
       color: #fff;
